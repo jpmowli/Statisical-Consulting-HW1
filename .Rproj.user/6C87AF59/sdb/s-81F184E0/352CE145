@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Statistical Consulting HW1\"\nauthor: \"Jay Mowli\"\ndate: \"January 19, 2015\"\noutput: html_document\n---\n\n",
+    "created" : 1421726677343.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3169567993",
+    "id" : "352CE145",
+    "lastKnownWriteTime" : 8315177835134542706,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
