@@ -15,11 +15,10 @@ library(tableone)
 cvars <- c("sex", "race")
 #create other vars
 vars <- c("sex","age","race","weight","height")
-
+ 
 ## Create Table 1 stratified by group
 tableOne <- CreateTableOne(vars = vars, strata = "group", data = data1, factorVars=cvars)
  
 ## Print Table
 print(tableOne,showAllLevels=T)
-
-'''
+```
