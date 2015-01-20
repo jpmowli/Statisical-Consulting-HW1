@@ -4,8 +4,8 @@ author: "Jay Mowli"
 date: "January 19, 2015"
 output: html_document
 ---
-
-```{r}
+Table 1
+```{r, echo=FALSE}
 #read data in
 data1 <- read.csv("~/Statisical-Consulting-HW1/hw1data.csv")
 

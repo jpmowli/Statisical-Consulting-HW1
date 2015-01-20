@@ -59,21 +59,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 
 
-<pre class="r"><code>#read data in
-data1 &lt;- read.csv(&quot;~/Statisical-Consulting-HW1/hw1data.csv&quot;)
-
-library(tableone)
-
-#create categorical vars
-cvars &lt;- c(&quot;sex&quot;, &quot;race&quot;)
-#create other vars
-vars &lt;- c(&quot;sex&quot;,&quot;age&quot;,&quot;race&quot;,&quot;weight&quot;,&quot;height&quot;)
- 
-## Create Table 1 stratified by group
-tableOne &lt;- CreateTableOne(vars = vars, strata = &quot;group&quot;, data = data1, factorVars=cvars)
- 
-## Print Table
-print(tableOne,showAllLevels=T)</code></pre>
+<p>Table 1</p>
 <pre><code>##                     Stratified by group
 ##                      level 0              1              p      test
 ##   n                           262            238                    
