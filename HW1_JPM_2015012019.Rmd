@@ -6,7 +6,7 @@ output: html_document
 ---
 github repository: https://github.com/jpmowli/Statisical-Consulting-HW1.git
 
-Table 1
+Table 1. Baseline Characteristics of the Sample Population
 ```{r, echo=FALSE}
 #read data in
 data1 <- read.csv("~/Statisical-Consulting-HW1/hw1data.csv")
