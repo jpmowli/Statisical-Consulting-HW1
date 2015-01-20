@@ -5,3 +5,9 @@ date: "January 19, 2015"
 output: html_document
 ---
 
+```{r}
+#read data in
+data1 <- read.csv("~/Statisical-Consulting-HW1/hw1data.csv")
+
+library(tableone)
+'''
