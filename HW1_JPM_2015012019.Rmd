@@ -4,6 +4,8 @@ author: "Jay Mowli"
 date: "January 19, 2015"
 output: html_document
 ---
+github repository: https://github.com/jpmowli/Statisical-Consulting-HW1.git
+
 Table 1
 ```{r, echo=FALSE}
 #read data in
