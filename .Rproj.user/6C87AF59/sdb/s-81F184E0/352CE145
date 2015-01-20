@@ -1,12 +1,12 @@
 {
-    "contents" : "---\ntitle: \"Statistical Consulting HW1\"\nauthor: \"Jay Mowli\"\ndate: \"January 19, 2015\"\noutput: html_document\n---\n\n```{r}\n#read data in\ndata1 <- read.csv(\"~/Statisical-Consulting-HW1/hw1data.csv\")\n\nlibrary(tableone)\n\n#create categorical vars\ncvars <- c(\"sex\", \"race\")\n#create other vars\nvars <- c(\"sex\",\"age\",\"race\",\"weight\",\"height\")\n \n\n'''",
+    "contents" : "---\ntitle: \"Statistical Consulting HW1\"\nauthor: \"Jay Mowli\"\ndate: \"January 19, 2015\"\noutput: html_document\n---\n\n```{r}\n#read data in\ndata1 <- read.csv(\"~/Statisical-Consulting-HW1/hw1data.csv\")\n\nlibrary(tableone)\n\n#create categorical vars\ncvars <- c(\"sex\", \"race\")\n#create other vars\nvars <- c(\"sex\",\"age\",\"race\",\"weight\",\"height\")\n\n## Create Table 1 stratified by group\ntableOne <- CreateTableOne(vars = vars, strata = \"group\", data = data1, factorVars=cvars)\n \n## Print Table\nprint(tableOne,showAllLevels=T)\n\n'''",
     "created" : 1421726677343.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2084021978",
+    "hash" : "605212872",
     "id" : "352CE145",
-    "lastKnownWriteTime" : 1421728844,
+    "lastKnownWriteTime" : 1421728926,
     "path" : "~/Statisical-Consulting-HW1/HW1_JPM_2015012019.Rmd",
     "project_path" : "HW1_JPM_2015012019.Rmd",
     "properties" : {
