@@ -10,4 +10,11 @@ output: html_document
 data1 <- read.csv("~/Statisical-Consulting-HW1/hw1data.csv")
 
 library(tableone)
+
+#create categorical vars
+cvars <- c("sex", "race")
+#create other vars
+vars <- c("sex","age","race","weight","height")
+ 
+
 '''
