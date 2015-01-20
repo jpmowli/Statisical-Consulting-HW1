@@ -1,14 +1,14 @@
 {
     "contents" : "---\ntitle: \"Statistical Consulting HW1\"\nauthor: \"Jay Mowli\"\ndate: \"January 19, 2015\"\noutput: html_document\n---\n\n",
     "created" : 1421726677343.000,
-    "dirty" : true,
-    "encoding" : "",
+    "dirty" : false,
+    "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "3169567993",
     "id" : "352CE145",
-    "lastKnownWriteTime" : 8315177835134542706,
-    "path" : null,
-    "project_path" : null,
+    "lastKnownWriteTime" : 1421727496,
+    "path" : "~/Statisical-Consulting-HW1/HW1_JPM_2015012019.Rmd",
+    "project_path" : "HW1_JPM_2015012019.Rmd",
     "properties" : {
         "tempName" : "Untitled1"
     },

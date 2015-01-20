@@ -1,0 +1,7 @@
+---
+title: "Statistical Consulting HW1"
+author: "Jay Mowli"
+date: "January 19, 2015"
+output: html_document
+---
+
